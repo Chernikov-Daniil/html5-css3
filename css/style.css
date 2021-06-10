@@ -1,3 +1,11 @@
+/*----- Обнуление стилей -----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 100%;
     max-width: 1272px;
@@ -152,6 +160,7 @@
 
 .main-digniti-box-text summary:before {
     content: "+";
+    font-family: auto;
     width: 34px;
     height: 35px;
     border: 1px solid black;
@@ -160,13 +169,14 @@
     left: 0;
     background-color: #445161;
     color: #fff;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 35px;
     text-align: center;
 }
 
 .main-digniti-box-text[open] summary:before {
     content: "-";
+    font-family: -webkit-pictograph;
     width: 34px;
     height: 35px;
     border: 1px solid black;
@@ -176,7 +186,7 @@
     background-color: #445161;
     color: #fff;
     font-size: 45px;
-    line-height: 30px;
+    line-height: 25px;
     text-align: center;
 }
 
@@ -185,7 +195,7 @@
 /*----- main-screenshots -----*/
 .main-screenshots {
     width: 100%;
-    padding: 25px 42px 51px 50px;
+    padding: 25px 42px 24px 50px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -197,7 +207,7 @@
 .main-screenshots-tittle {
     width: 100%;
     text-align: center;
-    margin: 0 0 22px 0;
+    margin: 0 0 45px 0;
     font-size: 30px;
     line-height: 36px;
     font-weight: normal;
@@ -207,7 +217,7 @@
 .main-screenshots-wrp {
     max-width: 650px;
     width: 48%;
-    margin: 0 0 29px 0;
+    margin: 0 0 27px 0;
     display: flex;
     align-items: flex-start;
 }
@@ -262,7 +272,7 @@
     font-weight: normal;
     color: #445161;
     text-align: center;
-    margin: 0 0 31px 0;
+    margin: 0 0 29px 0;
 }
 
 .main-reviews-article {
@@ -319,3 +329,5 @@
     background: #445161;
     border-radius: 33px;
 }
+
+/*----- end main-reviews -----*/
