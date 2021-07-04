@@ -580,29 +580,23 @@
     width: 51px;
     height: 51px;
     margin: 0 7px 0 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    color: #ffffff;
+}
+
+.footer-contacts-net-svg {
+    fill: currentColor;
+}
+
+.footer-contacts-net:hover {
+    color: skyblue;
+}
+
+.footer-contacts-net:active {
+    color: #ffffff;
 }
 
 .footer-contacts-net:last-child {
     margin: 0;
-}
-
-.twitter {
-    background-image: url(../img/twitter.svg);
-}
-
-.vkontakte {
-    background-image: url(../img/vkontakte.svg);
-}
-
-.google {
-    background-image: url(../img/google.svg);
-}
-
-.facebook {
-    background-image: url(../img/facebook.svg);
 }
 
 .copy {
